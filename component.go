@@ -92,7 +92,6 @@ func (c *Component) Start() (err error) {
 	return nil
 }
 
-
 // A Sender is an interface which allows sending of arbitrary objects
 // as XML to an XMPP server.
 type Sender interface {
